@@ -1,0 +1,21 @@
+@import './other/_head.scss';
+@import './other/_topBlockCont.scss';
+@import './other/_superBlock.scss';
+@import './other/_designed.scss';
+@import './other/_conect.scss';
+@import './other/_about.scss';
+@import './other/_comments.scss';
+@import './other/_lastBlock.scss';
+@import './other/_footer.scss';
+
+body, p, h1, h2, h3, h4 {
+    padding: 0;
+    margin: 0;
+    font-family: OpenSansRegular;
+}
+
+
+.slick-arrow {
+    display: none;
+    background-color: #ff2;
+}

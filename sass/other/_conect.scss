@@ -1,0 +1,58 @@
+.conect {
+    background-color: #E9EEF1;
+    position: relative;
+    padding-top: 100px;
+    height: 570px;
+    .conect_conectivity {
+//        background-color: red;
+
+        h3 {
+            font-size: 40px;
+            color: #2b303b;
+//            margin-left: 15px;
+            img {
+                margin-right: 15px;
+                padding-bottom: 10px;
+            }
+        }
+        p {
+            line-height: 1.8;
+            margin-top: 40px;
+        }
+        p.conetc_conectivity-lg {
+            font-size: 20px;
+            color: #696f7c;
+        }
+        p.conect_conectivity-md {
+            font-size: 14px;
+            color: #44484f;
+            
+        }
+//        p.conect_conectivity-lg {
+//            font-size: 15px;
+//            color: #2b303b;
+//        }
+    }
+    .conect_conectivity-img {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50%;
+        height: 570px;
+        overflow: hidden;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+
+// img scale for hover
+img.img-scale {
+    transition: all 1s ease-out;
+}
+
+img.img-scale:hover {
+    transform: scale(1.1);
+}

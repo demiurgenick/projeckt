@@ -1,0 +1,42 @@
+.comments {
+    background-color: #F4F8FB;
+    padding: 0;
+    margin: 0;
+    .comments-text {
+        background-color: #fff;
+        padding-right: 50px;
+        padding-top: 45px;
+        height: 300px;
+        h2 {
+            font-size: 23px;
+            color: #232323;
+        }
+        p {
+            font-size: 14px;
+            color: #83969f;
+            margin-top: 25px;
+        }
+        .comments-count {
+            display: flex;
+            p.number {
+                font-size: 30px;
+                border-right: 2px solid #83969f;
+            }
+            p {
+                font-size: 12px;
+                align-self: center;
+                padding: 0 15px;
+                
+            }
+        }
+    }
+    .comments-img {
+        padding: 0;
+        height: 300px;
+        overflow: hidden;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

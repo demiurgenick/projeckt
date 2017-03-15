@@ -1,0 +1,116 @@
+$searchRadius: 30px;
+@import "_headAnim.scss";
+.top-block {
+    background-color: #232831;
+    background-image: url(../img/bg1.png);
+    background-position: -285px -90px;
+    background-repeat: no-repeat;
+    background-size: 100% cover;
+    //    min-height: 800px;
+    .head {
+        padding-top: 50px;
+        padding-left: 85px;
+        display: flex;
+        justify-content: space-between;
+        .head-logo {
+            img:hover {
+                animation: shape 1s;
+                animation-duration: alternate;
+            }
+        }
+        .anim-input {
+            animation: humb 2s;
+            animation-fill-mode: forwards;
+        }
+        .anim-sub {
+            animation: humb_s 2s;
+            animation-fill-mode: forwards;
+        }
+        .disp-none {
+            display: none;
+        }
+        .anim-input_r {
+            animation: humb_r 2s;
+            animation-fill-mode: forwards;
+        }
+        .anim-sub_r {
+            animation: humb_s_r 2s;
+            animation-fill-mode: forwards;
+        }
+        .disp-none_r {
+            display: inline-block;
+        }
+        .head_search_wrapp {
+            .anim-go {
+                animation: humb_x 2s;
+                animation-fill-mode: forwards;
+            }
+             .anim-go_r {
+                animation: humb_x_r 2s;
+                animation-fill-mode: forwards;
+            }
+            
+        }
+        .head_search {
+            padding-right: 70px;
+            //            animation: humb_x 2s;
+            #head_search-form {
+                a {
+                    color: #B0B0B0;
+                    //                      animation: shape 5s;
+                }
+                .head_search_text-input {
+                    background-color: #343C48;
+                    border-top-right-radius: $searchRadius;
+                    border-bottom-right-radius: $searchRadius;
+                    border-top-left-radius: $searchRadius;
+                    border-bottom-left-radius: $searchRadius;
+                    padding-right: 35px;
+                    font-size: 14px;
+                    padding: 15px 35px;
+                    color: #B0B0B0;
+                    margin-right: 15px;
+                    #head_input_sear {
+                        width: 260px;
+                        background-color: #343C48;
+                        border-top-left-radius: $searchRadius;
+                        border-bottom-left-radius: $searchRadius;
+                        border-top-right-radius: $searchRadius;
+                        border-bottom-right-radius: $searchRadius;
+                        border: none;
+                        //                        animation
+                        //                        animation: humb 2s;
+                    }
+                    .search_icon {
+                        height: 200px;
+                    }
+                    #head_input_sear:focus {
+                        outline: none;
+                    }
+                }
+                #search_sub {
+                    border-top-left-radius: $searchRadius;
+                    border-bottom-left-radius: $searchRadius;
+                    border-top-right-radius: $searchRadius;
+                    border-bottom-right-radius: $searchRadius;
+                    border: none;
+                    background-color: #825FA7;
+                    color: #fff;
+                    padding: 13px 30px;
+                    //                    animation: humb_s 2s;
+                }
+                #search_sub:hover {
+                    background-color: #825FFC;
+                }
+                .head_search_humb {
+                    a {
+                        color: #fff;
+                    }
+                    margin-left: 25px;
+                    font-size: 20px;
+                    //                    margin-top: 10px; // need fix
+                }
+            }
+        }
+    }
+}

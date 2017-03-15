@@ -1,0 +1,47 @@
+.last-block {
+    background-color: #424F58;
+    height: 760px;
+    background-image: url(../img/last.png);
+    background-size: cover;
+    .last-right-block {
+        background-color: #835FA8;
+        width: 50%;
+        height: 465px;
+        font-family: OpenSansRegular;
+        h3, p {
+            line-height: 1.7;
+            padding: 0;
+            margin: 0;
+        }
+        position: relative;
+//        padding-right: 205px;
+        .last-right-block_content {
+            width: 390px;
+            position: absolute;
+            right: 205px;
+            top: 90px;
+            color: #fff;
+            h3 {
+                font-size: 32px;
+                font-style: italic;
+            }
+            
+            .last-block-author {
+                display: flex;
+                margin-top: 35px;
+                .last-block-author-img {
+                    background-image: url(../img/aut.png);
+                    background-position: -58px -6px;
+                    height: 60px;
+                    width: 60px;
+                    border-radius: 50%;
+                }
+                p.name-author {
+                    font-size: 15px;
+                    align-self: center;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
